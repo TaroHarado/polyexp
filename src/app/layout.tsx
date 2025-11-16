@@ -11,11 +11,12 @@ export const metadata: Metadata = {
   description: 'Build express bets on Polymarket with real on-chain markets, non-custodial.',
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/icon.png', sizes: '32x32', type: 'image/png' },
       { url: '/icon.png', sizes: '16x16', type: 'image/png' },
     ],
     apple: '/apple-icon.png',
-    shortcut: '/icon.png',
+    shortcut: '/favicon.ico',
   },
 }
 
