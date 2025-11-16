@@ -118,7 +118,7 @@ export default function MarketDetailsDrawer({
                 onClick={() => setSelectedOutcomeIndex(idx)}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
                   selectedOutcomeIndex === idx
-                    ? 'bg-[#7C5CFF] text-white'
+                    ? 'bg-[#3B82F6] text-white'
                     : 'bg-white/5 text-slate-300 hover:bg-white/10'
                 }`}
               >
@@ -160,7 +160,7 @@ export default function MarketDetailsDrawer({
               </div>
               <div className="rounded-lg border border-white/5 bg-white/5 p-3">
                 <div className="text-xs text-slate-400 mb-1">Mid Price</div>
-                <div className="text-lg font-semibold text-[#3BE4FF]">
+                <div className="text-lg font-semibold text-[#F59E0B]">
                   {ticker.midPrice !== null
                     ? `${ticker.midPrice.toFixed(3)} (${Math.round(ticker.midPrice * 100)}%)`
                     : '—'}

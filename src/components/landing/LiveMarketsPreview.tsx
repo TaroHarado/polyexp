@@ -85,10 +85,10 @@ export default function LiveMarketsPreview() {
         </h2>
         <a
           href="/app"
-          className={`inline-flex items-center justify-center rounded-lg border border-[#7C5CFF]/50 bg-[#7C5CFF] px-4 py-2 text-sm font-medium text-white hover:bg-[#6B4CE6] hover:border-[#7C5CFF] transition-all hover:scale-105 ${visible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'}`}
+          className={`inline-flex items-center justify-center rounded-lg border border-[#3B82F6]/50 bg-[#3B82F6] px-4 py-2 text-sm font-medium text-white hover:bg-[#2563EB] hover:border-[#3B82F6] transition-all hover:scale-105 ${visible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'}`}
           style={{ transitionDelay: '200ms' }}
         >
-          Build parlay
+          Build express bet
         </a>
       </div>
       <div className={`rounded-xl border border-white/5 bg-gradient-to-b from-white/5 to-transparent p-6 shadow-lg shadow-black/40 transition-all duration-1000 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>

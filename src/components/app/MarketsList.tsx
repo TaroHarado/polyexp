@@ -25,7 +25,7 @@ function renderOutcomes(outcomes: any): string {
   }
 
   if (typeof outcomes === 'string') {
-    // пробуем распарсить JSON-строку
+    // try to parse JSON string
     try {
       const parsed = JSON.parse(outcomes)
       if (Array.isArray(parsed)) {
@@ -33,7 +33,7 @@ function renderOutcomes(outcomes: any): string {
       }
       return String(parsed)
     } catch {
-      // не JSON — просто покажем как есть
+      // not JSON - return as is
       return outcomes
     }
   }
@@ -152,7 +152,7 @@ export default function MarketsList({ onAddLeg }: MarketsListProps) {
           Error: {error}
           <button
             onClick={() => window.location.reload()}
-            className="ml-4 text-[#7C5CFF] hover:text-[#6B4CE6]"
+            className="ml-4 text-[#3B82F6] hover:text-[#2563EB]"
           >
             Retry
           </button>

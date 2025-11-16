@@ -9,7 +9,7 @@ export interface ParlayLeg {
   outcomeIndex: number
   question: string
   outcomeLabel: string
-  price: number // используем yesPrice/noPrice
+  price: number // using yesPrice/noPrice
   odds: number // decimal odds
 }
 
@@ -58,13 +58,13 @@ export default function ParlayBuilder({
       return
     }
 
-    // Если кошелек не подключен - показываем ошибку
+    // If wallet is not connected - show error
     if (!isConnected || !address) {
-      setError('Please connect your wallet first to create a parlay')
+      setError('Please connect your wallet first to create an express bet')
       return
     }
 
-    // Если кошелек подключен - показываем модальное окно подтверждения
+    // If wallet is connected - show confirmation modal
     setShowTransactionModal(true)
     setError(null)
   }
@@ -89,11 +89,11 @@ export default function ParlayBuilder({
 
   return (
     <div className="rounded-xl border border-white/5 bg-gradient-to-b from-white/5 to-transparent p-6 shadow-lg shadow-black/40">
-      <h2 className="text-xl font-semibold mb-4">Parlay Builder</h2>
+      <h2 className="text-xl font-semibold mb-4">Express Bet Builder</h2>
 
       {legs.length === 0 ? (
         <div className="text-sm text-slate-400 mb-4">
-          Add legs from the markets list to build your parlay
+          Add legs from the markets list to build your express bet
         </div>
       ) : (
         <div className="space-y-3 mb-4">
@@ -156,7 +156,7 @@ export default function ParlayBuilder({
               setError(null)
             }}
             placeholder="0.00"
-            className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-[#7C5CFF] focus:border-transparent"
+            className="w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-[#3B82F6] focus:border-transparent"
           />
         </div>
 
@@ -169,9 +169,9 @@ export default function ParlayBuilder({
         <button
           onClick={handleCreateParlay}
           disabled={legs.length === 0 || !stake || parseFloat(stake) <= 0}
-          className="w-full rounded-lg bg-[#7C5CFF] px-4 py-2.5 text-sm font-medium text-white hover:bg-[#6B4CE6] transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full rounded-lg bg-[#3B82F6] px-4 py-2.5 text-sm font-medium text-white hover:bg-[#2563EB] transition disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          Create Parlay
+          Create Express Bet
         </button>
       </div>
 

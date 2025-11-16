@@ -7,8 +7,8 @@ import { WagmiProvider } from '@/components/providers/WagmiProvider'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'polyparlay.fun — Parlay Layer for Polymarket',
-  description: 'Build parlays on Polymarket with real on-chain markets, non-custodial.',
+  title: 'polyexpress.fun — Express Layer for Polymarket',
+  description: 'Build express bets on Polymarket with real on-chain markets, non-custodial.',
   icons: {
     icon: [
       { url: '/icon.png', sizes: '32x32', type: 'image/png' },
@@ -33,13 +33,13 @@ export default function RootLayout({
               <a href="/" className="flex items-center gap-2">
                 <Image
                   src="/logo.png"
-                  alt="polyparlay.fun"
+                  alt="polyexpress.fun"
                   width={32}
                   height={32}
                   className="h-8 w-8 rounded-lg"
                 />
                 <span className="text-lg font-semibold tracking-tight">
-                  polyparlay.fun
+                  polyexpress.fun
                 </span>
               </a>
               <nav className="flex items-center gap-4 text-sm text-slate-300">
@@ -53,7 +53,7 @@ export default function RootLayout({
                   FAQ
                 </a>
                 <a
-                  href="https://x.com/polyparlay_fun"
+                  href="https://x.com/polyexpress_fun"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

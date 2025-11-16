@@ -57,7 +57,7 @@ export default function WalletConnect() {
         <span className="text-slate-400">Not connected</span>
         <button
           onClick={() => setOpen((v) => !v)}
-          className="rounded-md bg-[#7C5CFF] px-3 py-1.5 text-xs font-medium text-white hover:bg-[#6B4CE6] transition"
+          className="rounded-md bg-[#3B82F6] px-3 py-1.5 text-xs font-medium text-white hover:bg-[#2563EB] transition"
         >
           Connect Wallet
         </button>

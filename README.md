@@ -1,6 +1,6 @@
-# polyparlay.fun - Parlay Layer for Polymarket
+# polyexpress.fun - Express Layer for Polymarket
 
-Non-custodial parlay layer for Polymarket. Create combined bets (parlays) across multiple Polymarket markets with real orders executed directly on Polymarket.
+Non-custodial express betting layer for Polymarket. Create combined bets (express bets) across multiple Polymarket markets with real orders executed directly on Polymarket.
 
 ## Tech Stack
 

@@ -11,7 +11,7 @@ type ParlayLegUI = {
   question: string
   outcomeIndex: number
   outcomeLabel: string
-  price: number // используем yesPrice/noPrice
+  price: number // using yesPrice/noPrice
   odds: number // decimal odds
 }
 

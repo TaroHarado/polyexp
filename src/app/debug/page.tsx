@@ -55,7 +55,7 @@ export default function DebugPage() {
       <div>
         <h1 className="text-2xl font-semibold mb-2">Debug Dashboard</h1>
         <p className="text-sm text-slate-400">
-          System status and smoke test for polyexp
+          System status and smoke test for polyexpress.fun
         </p>
       </div>
 
@@ -176,27 +176,27 @@ export default function DebugPage() {
           <a
             href="/api/health"
             target="_blank"
-            className="block text-[#7C5CFF] hover:text-[#6B4CE6] transition"
+            className="block text-[#3B82F6] hover:text-[#2563EB] transition"
           >
             /api/health
           </a>
           <a
             href="/api/markets"
             target="_blank"
-            className="block text-[#7C5CFF] hover:text-[#6B4CE6] transition"
+            className="block text-[#3B82F6] hover:text-[#2563EB] transition"
           >
             /api/markets
           </a>
           <a
             href="/api/debug/status"
             target="_blank"
-            className="block text-[#7C5CFF] hover:text-[#6B4CE6] transition"
+            className="block text-[#3B82F6] hover:text-[#2563EB] transition"
           >
             /api/debug/status
           </a>
           <a
             href="/app"
-            className="block text-[#7C5CFF] hover:text-[#6B4CE6] transition"
+            className="block text-[#3B82F6] hover:text-[#2563EB] transition"
           >
             /app (Main application)
           </a>

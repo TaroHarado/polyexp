@@ -27,30 +27,30 @@ export default function WhySection() {
     {
       title: 'Real Markets & Real Orders',
       description:
-        'Every parlay leg is a real Polymarket position. No synthetic markets, no off-chain bets.',
-      icon: '✓',
+        'Every express bet leg is a real Polymarket position. No synthetic markets, no off-chain bets.',
+      
       gradient: 'from-green-500/20 to-emerald-500/20',
     },
     {
       title: 'Non-Custodial by Design',
       description:
         'Your funds stay in your wallet. We orchestrate orders, but never hold your assets.',
-      icon: '🔒',
+     
       gradient: 'from-blue-500/20 to-cyan-500/20',
     },
     {
-      title: 'Smart Parlay Engine',
+      title: 'Smart Express Engine',
       description:
         'Automatic odds calculation, liquidity checks, and real-time market data integration.',
-      icon: '⚡',
-      gradient: 'from-purple-500/20 to-pink-500/20',
+      
+      gradient: 'from-blue-500/20 to-amber-500/20',
     },
   ]
 
   return (
     <section ref={sectionRef} className="py-16">
       <h2 className={`text-3xl font-bold text-center mb-12 transition-all duration-1000 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-        Why polyparlay.fun?
+        Why polyexpress.fun?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((feature, idx) => (

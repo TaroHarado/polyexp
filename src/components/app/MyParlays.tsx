@@ -23,11 +23,11 @@ interface MyParlaysProps {
 export default function MyParlays({ parlays }: MyParlaysProps) {
   return (
     <div className="rounded-xl border border-white/5 bg-gradient-to-b from-white/5 to-transparent p-6 shadow-lg shadow-black/40 space-y-4">
-      <h2 className="text-xl font-semibold">My Parlays</h2>
+      <h2 className="text-xl font-semibold">My Express Bets</h2>
 
       {parlays.length === 0 ? (
         <div className="text-center py-8 text-slate-400">
-          No parlays yet. Create your first parlay!
+          No express bets yet. Create your first express bet!
         </div>
       ) : (
         <div className="overflow-x-auto">
@@ -56,11 +56,11 @@ export default function MyParlays({ parlays }: MyParlaysProps) {
                   <td className="py-3 pr-4 text-slate-300">
                     ${p.stake.toFixed(2)}
                   </td>
-                  <td className="py-3 pr-4 text-right text-[#7C5CFF] font-semibold">
+                  <td className="py-3 pr-4 text-right text-[#3B82F6] font-semibold">
                     {p.kTotal.toFixed(2)}x
                   </td>
                   <td className="py-3 text-right">
-                    <span className="text-[#3BE4FF] font-semibold">
+                    <span className="text-[#F59E0B] font-semibold">
                       ${p.expectedPayout.toFixed(2)}
                     </span>
                   </td>

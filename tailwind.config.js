@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         accent: {
-          purple: '#7C5CFF',
-          cyan: '#3BE4FF',
+          blue: '#3B82F6',
+          amber: '#F59E0B',
         },
       },
       animation: {
